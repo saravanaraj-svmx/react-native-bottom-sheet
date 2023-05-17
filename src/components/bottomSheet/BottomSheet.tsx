@@ -1619,7 +1619,7 @@ const BottomSheetComponent = forwardRef<BottomSheet, BottomSheetProps>(
               topInset={topInset}
               bottomInset={bottomInset}
               detached={detached}
-              style={_providedContainerStyle}
+              style={[{ width: '100%' }, _providedContainerStyle]}
             >
               <Animated.View style={containerStyle}>
                 <BottomSheetBackgroundContainer
